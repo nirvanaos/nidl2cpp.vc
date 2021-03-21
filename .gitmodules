@@ -1,0 +1,3 @@
+[submodule "nidl2cpp/nidl2cpp"]
+	path = nidl2cpp/nidl2cpp
+	url = https://github.com/nirvanaos/nidl2cpp.git
