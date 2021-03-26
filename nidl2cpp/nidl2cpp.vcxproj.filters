@@ -21,12 +21,42 @@
     <ClInclude Include="nidl2cpp\src\Compiler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="nidl2cpp\src\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nidl2cpp\src\CodeGenBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nidl2cpp\src\Client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nidl2cpp\src\IndentedOut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nidl2cpp\src\Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="nidl2cpp\src\Compiler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="nidl2cpp\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nidl2cpp\src\pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nidl2cpp\src\CodeGenBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nidl2cpp\src\Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nidl2cpp\src\IndentedOut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nidl2cpp\src\Header.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
