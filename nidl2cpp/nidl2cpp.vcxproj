@@ -161,11 +161,14 @@
     <ClInclude Include="nidl2cpp\src\Header.h" />
     <ClInclude Include="nidl2cpp\src\IndentedOut.h" />
     <ClInclude Include="nidl2cpp\src\pch.h" />
+    <ClInclude Include="nidl2cpp\src\Servant.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="nidl2cpp\src\Client.cpp" />
     <ClCompile Include="nidl2cpp\src\Code.cpp" />
     <ClCompile Include="nidl2cpp\src\CodeGenBase.cpp" />
+    <ClCompile Include="nidl2cpp\src\Servant.cpp" />
     <ClInclude Include="nidl2cpp\src\CodeGenBase.h">
       <FileType>CppCode</FileType>
     </ClInclude>
@@ -186,6 +189,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="nidl2cpp.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
