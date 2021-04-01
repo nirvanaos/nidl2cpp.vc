@@ -1,3 +1,6 @@
 [submodule "nidl2cpp/nidl2cpp"]
 	path = nidl2cpp/nidl2cpp
 	url = https://github.com/nirvanaos/nidl2cpp.git
+[submodule "test/library.vc"]
+	path = test/library.vc
+	url = https://github.com/nirvanaos/library.vc.git
