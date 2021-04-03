@@ -27,9 +27,6 @@
     <ClInclude Include="nidl2cpp\src\Client.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="nidl2cpp\src\IndentedOut.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="nidl2cpp\src\Header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -40,6 +37,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="nidl2cpp\src\Servant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nidl2cpp\src\Proxy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -59,9 +59,6 @@
     <ClCompile Include="nidl2cpp\src\Client.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="nidl2cpp\src\IndentedOut.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="nidl2cpp\src\Header.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -71,13 +68,16 @@
     <ClCompile Include="nidl2cpp\src\Servant.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
+    <ClCompile Include="nidl2cpp\src\Proxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="nidl2cpp.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
