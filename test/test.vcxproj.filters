@@ -18,6 +18,9 @@
     <ClInclude Include="..\generated\Test_I1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\generated\Test_I1_s.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\generated\Test_I1.cpp">
