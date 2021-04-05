@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="IDL">
+      <UniqueIdentifier>{6775c810-fe50-4f2a-a7c8-cc001fb9359f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\generated\Test_I1.h">
@@ -29,5 +32,16 @@
     <ClCompile Include="..\generated\Test_I1_p.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="..\nidl2cpp\nidl2cpp\test\ORB\Test_I1.idl">
+      <Filter>IDL</Filter>
+    </Midl>
+    <Midl Include="..\nidl2cpp\nidl2cpp\test\ORB\Test_I2.idl">
+      <Filter>IDL</Filter>
+    </Midl>
+    <Midl Include="..\nidl2cpp\nidl2cpp\test\ORB\Test_I3.idl">
+      <Filter>IDL</Filter>
+    </Midl>
   </ItemGroup>
 </Project>

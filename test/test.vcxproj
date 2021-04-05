@@ -166,6 +166,11 @@
     <ClCompile Include="..\generated\Test_I1.cpp" />
     <ClCompile Include="..\generated\Test_I1_p.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Midl Include="..\nidl2cpp\nidl2cpp\test\ORB\Test_I1.idl" />
+    <Midl Include="..\nidl2cpp\nidl2cpp\test\ORB\Test_I2.idl" />
+    <Midl Include="..\nidl2cpp\nidl2cpp\test\ORB\Test_I3.idl" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
