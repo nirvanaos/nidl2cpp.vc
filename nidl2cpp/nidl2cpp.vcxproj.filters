@@ -79,5 +79,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="nidl2cpp\readme.md" />
   </ItemGroup>
 </Project>

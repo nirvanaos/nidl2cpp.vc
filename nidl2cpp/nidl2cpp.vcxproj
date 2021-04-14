@@ -191,6 +191,7 @@
     <ResourceCompile Include="nidl2cpp.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="nidl2cpp\readme.md" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
