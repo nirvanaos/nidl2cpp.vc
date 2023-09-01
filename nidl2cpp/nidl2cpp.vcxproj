@@ -507,12 +507,12 @@
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
-    <Import Project="..\..\packages\nirvanaos.idlfe.vc.3.2.2\build\native\nirvanaos.idlfe.vc.targets" Condition="Exists('..\..\packages\nirvanaos.idlfe.vc.3.2.2\build\native\nirvanaos.idlfe.vc.targets')" />
+    <Import Project="..\..\packages\nirvanaos.idlfe.vc.3.2.3\build\native\nirvanaos.idlfe.vc.targets" Condition="Exists('..\..\packages\nirvanaos.idlfe.vc.3.2.3\build\native\nirvanaos.idlfe.vc.targets')" />
   </ImportGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\..\packages\nirvanaos.idlfe.vc.3.2.2\build\native\nirvanaos.idlfe.vc.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\nirvanaos.idlfe.vc.3.2.2\build\native\nirvanaos.idlfe.vc.targets'))" />
+    <Error Condition="!Exists('..\..\packages\nirvanaos.idlfe.vc.3.2.3\build\native\nirvanaos.idlfe.vc.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\nirvanaos.idlfe.vc.3.2.3\build\native\nirvanaos.idlfe.vc.targets'))" />
   </Target>
 </Project>
