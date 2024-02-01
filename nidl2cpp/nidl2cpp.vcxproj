@@ -496,6 +496,7 @@
     <ResourceCompile Include="nidl2cpp.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\readme.md" />
     <None Include="nidl2cpp\readme.md" />
     <None Include="packages.config" />
   </ItemGroup>
