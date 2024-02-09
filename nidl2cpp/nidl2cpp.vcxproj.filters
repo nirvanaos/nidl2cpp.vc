@@ -82,7 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="nidl2cpp\readme.md" />
-    <None Include="packages.config" />
     <None Include="..\readme.md" />
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
