@@ -469,6 +469,7 @@
     <ClCompile Include="nidl2cpp\src\Client.cpp" />
     <ClCompile Include="nidl2cpp\src\Code.cpp" />
     <ClCompile Include="nidl2cpp\src\CodeGenBase.cpp" />
+    <ClCompile Include="nidl2cpp\src\Component.cpp" />
     <ClCompile Include="nidl2cpp\src\Proxy.cpp" />
     <ClCompile Include="nidl2cpp\src\Servant.cpp" />
     <ClInclude Include="nidl2cpp\src\CodeGenBase.h">

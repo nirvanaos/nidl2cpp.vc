@@ -74,6 +74,9 @@
     <ClCompile Include="nidl2cpp\src\Proxy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="nidl2cpp\src\Component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="nidl2cpp.rc">
