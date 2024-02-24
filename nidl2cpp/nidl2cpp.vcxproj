@@ -284,6 +284,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>nidl2cpp/src/pch.h</PrecompiledHeaderFile>
       <FunctionLevelLinking>true</FunctionLevelLinking>
+      <AdditionalOptions>/showFilenames </AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -339,6 +340,7 @@
       <LanguageStandard>stdcpp20</LanguageStandard>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>nidl2cpp/src/pch.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/showFilenames </AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -388,7 +390,7 @@
       <LanguageStandard>stdcpp20</LanguageStandard>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>nidl2cpp/src/pch.h</PrecompiledHeaderFile>
-      <AdditionalOptions>-mlzcnt %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/showFilenames -mlzcnt %(AdditionalOptions)</AdditionalOptions>
       <FunctionLevelLinking>true</FunctionLevelLinking>
     </ClCompile>
     <Link>
@@ -445,7 +447,7 @@
       <LanguageStandard>stdcpp20</LanguageStandard>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>nidl2cpp/src/pch.h</PrecompiledHeaderFile>
-      <AdditionalOptions>-mlzcnt %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/showFilenames -mlzcnt %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
